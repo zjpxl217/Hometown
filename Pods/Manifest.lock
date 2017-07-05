@@ -1,0 +1,37 @@
+PODS:
+  - HanekeSwift (0.10.1)
+  - JSONJoy-Swift (3.0.1)
+  - NVActivityIndicatorView (3.6.1)
+  - ObjectMapper (2.2.6)
+  - SnapKit (3.2.0)
+  - SwiftHTTP (2.0.2)
+
+DEPENDENCIES:
+  - HanekeSwift (from `https://github.com/Haneke/HanekeSwift`, branch `feature/swift-3`)
+  - JSONJoy-Swift (~> 3.0.0)
+  - NVActivityIndicatorView
+  - ObjectMapper (~> 2.2)
+  - SnapKit (~> 3.2.0)
+  - SwiftHTTP (~> 2.0.0)
+
+EXTERNAL SOURCES:
+  HanekeSwift:
+    :branch: feature/swift-3
+    :git: https://github.com/Haneke/HanekeSwift
+
+CHECKOUT OPTIONS:
+  HanekeSwift:
+    :commit: 2f6d87f1f725d204d85cb34492e8c399cd5a200f
+    :git: https://github.com/Haneke/HanekeSwift
+
+SPEC CHECKSUMS:
+  HanekeSwift: 4113367892828e7700d24a384027de6ebc79aad1
+  JSONJoy-Swift: ef6eccdcf319412f149bbdd031b27f0430d5d576
+  NVActivityIndicatorView: 9f52a7f84bf5c6a798722c450fe3c198e01c56ed
+  ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  SnapKit: 1ca44df72cfa543218d177cb8aab029d10d86ea7
+  SwiftHTTP: faa1a5f7670568ffc9361898229dbe84a6088468
+
+PODFILE CHECKSUM: 5467179da6ba09dc5c4892eba00584a8949424ba
+
+COCOAPODS: 1.2.1

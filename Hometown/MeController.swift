@@ -21,7 +21,33 @@ class MeController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func ChooseHomeTown(_ sender: AnyObject) {
+        
+        let chooseHometownController = ChooseHometownController()
+        // 传递控件的title，在detailView里用于判断生成响应的控件
+        chooseHometownController.title = "找老家-省份"
+        // navigationController跳转到myOrderController
+        self.navigationController!.pushViewController(chooseHometownController, animated:true)
 
+    }
+
+    @IBAction func SetHeadImage(_ sender: Any) {
+        let setHeadImageController = SetHeadImageController()
+        // 传递控件的title，在detailView里用于判断生成响应的控件
+        setHeadImageController.title = "设置头像"
+        // navigationController跳转到myOrderController
+        self.navigationController!.pushViewController(setHeadImageController, animated:true)
+        
+    }
+   
+    @IBAction func UpdatePassword(_ sender: Any) {
+        let updatePasswordController = UpdatePasswordController()
+        // 传递控件的title，在detailView里用于判断生成响应的控件
+        updatePasswordController.title = "修改密码"
+        // navigationController跳转到myOrderController
+        self.navigationController!.pushViewController(updatePasswordController, animated:true)
+
+    }
     /*
     // MARK: - Navigation
 

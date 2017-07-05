@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+import UIKit
+
+class ShowImageView: UIImageView {
+    var showSize:CGSize!
+}
